@@ -3,35 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Connect with Me</title>
+    <title></title>
+    <!-- Importa il font da Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@900&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
             margin: 0;
-            padding: 20px;
+            background-color: #F9D34B; /* Colore di sfondo */
+            font-family: 'Barlow Semi Condensed', sans-serif;
         }
-        .button {
-            display: inline-block;
-            margin: 10px;
-            padding: 15px 25px;
-            font-size: 16px;
-            text-decoration: none;
-            color: white;
-            background-color: #0073e6;
-            border-radius: 5px;
+        .content {
+            text-align: center;
         }
-        .button:hover {
-            background-color: #005bb5;
+        .content img {
+            max-width: 100%;
+            max-height: 80vh; /* Adatta l'immagine alla finestra */
+            height: auto;
+        }
+        .content p {
+            font-size: 1.5rem;
+            color: #333;
+            margin-top: 10px;
+            font-weight: 900; /* Usa lo stile "Black" */
         }
     </style>
+    <script>
+        setTimeout(() => {
+            window.location.href = "https://linktr.ee/cammeana"; // URL del sito
+        }, 0); // Reindirizza dopo 0 secondi
+    </script>
 </head>
 <body>
-    <h1>Connect with Me</h1>
-    <a href="https://www.facebook.com/yourprofile" class="button" target="_blank">Facebook</a>
-    <a href="https://twitter.com/yourprofile" class="button" target="_blank">Twitter</a>
-    <a href="https://www.instagram.com/yourprofile" class="button" target="_blank">Instagram</a>
-    <a href="https://www.linkedin.com/in/yourprofile" class="button" target="_blank">LinkedIn</a>
+    <div class="content">
+        <p>Grazie per averci scelto!</p>
+    </div>
 </body>
 </html>
